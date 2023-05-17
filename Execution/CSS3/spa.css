@@ -1,0 +1,93 @@
+@charset "utf-8";
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+#menu
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+#menu>li
+{
+	float: right;
+	margin: 20px;
+	font-size: 23px;
+}
+#menu a
+{
+	text-decoration: none;
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+section
+{
+	position: relative;
+	width: 100%;
+}
+header
+{
+	width: 100%;
+	height: 100px;
+	background-color:#B4B4B4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 444;
+	flex-direction: ltr;
+}
+div
+{
+	background-color: #290C74;
+	height: 200px;
+	position: relative;
+	
+}
+#about
+{
+	height: 400px;
+	background-color: #1D838F;
+}
+h1
+{
+	display: flex;
+	justify-content: center;
+}
+#property
+{
+	height: 300px;
+	background-color: #2CB84D;
+}
+#blog
+{
+	height: 400px;
+	background-color:#1E1AA6;
+}
+#testimoial
+{
+	height: 500px;
+	background-color: #358200;
+}
+#contact
+{
+	height: 300px;
+	background-color:#C15311;
+}
+section#contact i
+{
+	left: 95%;
+	top: 90%;
+	position: absolute;
+	font-size: 40px;
+}
+.fa-circle-up
+{
+	left: 95%;
+	top: 90%;
+	position: absolute;
+	font-size: 40px;
+}
